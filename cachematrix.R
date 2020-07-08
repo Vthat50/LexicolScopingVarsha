@@ -16,6 +16,7 @@ get <- function () {x}
 
 }
 
+## computes the inverse of the special matrix
 
 cacheSolve <- function(x, ...) {
         inv <- x$getInverse()
